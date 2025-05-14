@@ -1,0 +1,16 @@
+﻿@model PdpLesson4.Models.PdpListFriends
+
+@{
+    ViewData["Title"] = "Xác nhận xóa";
+}
+
+<h2>Bạn có chắc chắn muốn xóa bạn này?</h2>
+<div>
+    <strong>@Model.Name</strong> - @Model.Address
+</div>
+<form asp-action="PdpDeleteFriends" method="post">
+    <input type="hidden" asp-for="ID" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="PdpListFriends" class="btn btn-secondary">Hủy</a>
+</form>
+

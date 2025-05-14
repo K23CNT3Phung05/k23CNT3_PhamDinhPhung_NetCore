@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pdplesson01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07961c08e1655c68208009f0f0d575d3580a71fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4966f72dfc7216151f7435b10870d41a7be26a97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pdplesson01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pdplesson01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

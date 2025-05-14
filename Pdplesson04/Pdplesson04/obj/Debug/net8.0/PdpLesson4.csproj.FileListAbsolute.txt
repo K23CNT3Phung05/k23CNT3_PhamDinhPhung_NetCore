@@ -1,0 +1,9 @@
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.csproj.AssemblyReference.cache
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.GeneratedMSBuildEditorConfig.editorconfig
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.AssemblyInfoInputs.cache
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.AssemblyInfo.cs
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.csproj.CoreCompileInputs.cache
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.MvcApplicationPartsAssemblyInfo.cache
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.RazorAssemblyInfo.cache
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.RazorAssemblyInfo.cs
+E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\Pdplesson\nctLesson4\obj\Debug\net8.0\PdpLesson4.sourcelink.json

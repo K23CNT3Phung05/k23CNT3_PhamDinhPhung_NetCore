@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "PdpListFriends";
+    var friends = ViewBag.Friends as List<PdpLesson4.Models.PdpListFriends>;
+}
+
+<h1>Danh Sách Bạn Bè</h1>
+<a asp-action="PdpCreateFriends" asp-controller="PdpListFriends" class="btn btn-primary mx-3 mt-3 mb-1">Thêm Mới</a>
+@if (friends != null && friends.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Image</th>
+                <th>Favorite Food</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var friend in friends)
+            {
+                <tr>
+                    <td>@friend.Name</td>
+                    <td>@friend.Age</td>
+                    <td>@friend.Address</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(friend.Image))
+                        {
+                            <img src="@friend.Image" alt="@friend.Name" style="max-width:100px;" />
+                        }
+                    </td>
+                    <td>@friend.FavoriteFood</td>
+                    <td>
+                        <a asp-action="PdpEditFriends" asp-route-id="@friend.ID" class="btn btn-success btn-sm">Edit</a>
+                        <a asp-action="PdpDeleteFriends" asp-route-id="@friend.ID" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No friends found.</p>
+}
