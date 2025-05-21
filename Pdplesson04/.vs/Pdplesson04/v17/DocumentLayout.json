@@ -70,8 +70,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\Shared\\_PdpLayout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T06:41:26.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:41:26.764Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\PdpHome\\PdpAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T06:02:40.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:02:40.282Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Pdplesson04\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:58:28.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:58:28.399Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\Shared\\_Header.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T05:54:17.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:54:17.047Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\Shared\\_Footer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T05:53:53.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:53:53.762Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\PdpListFriends\\PdpListFriends.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T05:52:41.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:52:41.042Z"
             },
             {
               "$type": "Document",
@@ -146,7 +140,7 @@
               "RelativeDocumentMoniker": "Pdplesson04\\Controllers\\PdpListFriendsController.cs",
               "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\Pdplesson04\\Pdplesson04\\Controllers\\PdpListFriendsController.cs",
               "RelativeToolTip": "Pdplesson04\\Controllers\\PdpListFriendsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T05:51:29.904Z",
               "EditorCaption": ""
@@ -161,8 +155,7 @@
               "RelativeToolTip": "Pdplesson04\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-14T05:50:17.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:50:17.142Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\PdpListFriends\\PdpCreateFriends.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T05:49:10.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:49:10.34Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "Pdplesson04\\Views\\PdpListFriends\\PdpDeleteFriends.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T05:48:50.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:48:50.573Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Pdplesson04\\Models\\PdpListFriends.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:46:58.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:46:58.033Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "Pdplesson04\\Controllers\\PdpHomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:37:13.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T05:37:13.376Z"
             }
           ]
         }
