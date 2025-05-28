@@ -1,0 +1,38 @@
+﻿@model Pdplesson06.Models.PdpEmployee
+@{
+    ViewData["Title"] = "Chỉnh sửa nhân viên";
+}
+
+<h2>Chỉnh sửa nhân viên</h2>
+
+<form asp-action="PdpEditPut" method="post">
+    <input type="hidden" asp-for="PdpId" />
+    <div class="mb-3">
+        <label class="form-label">Họ tên</label>
+        <input asp-for="PdpName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ngày sinh</label>
+        <input asp-for="PdpBirthDay" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="PdpEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Điện thoại</label>
+        <input asp-for="PdpPhone" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Lương</label>
+        <input asp-for="PdpSalary" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Trạng thái</label>
+        <select asp-for="PdpStatus" class="form-select">
+            <option value="true">Đang làm</option>
+            <option value="false">Nghỉ</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Cập nhật</button>
+</form>

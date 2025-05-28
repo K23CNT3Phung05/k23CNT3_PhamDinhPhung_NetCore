@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Giới thiệu sinh viên";
+}
+
+<div class="bg-student d-flex align-items-center justify-content-center">
+    <div class="container">
+        <div class="card-custom text-center">
+            <h2 class="text-primary">Thông tin sinh viên</h2>
+            <hr />
+            <p class="fs-4"><strong>Họ tên:</strong> @ViewBag.StudentName</p>
+            <p class="fs-4"><strong>Mã số sinh viên:</strong> @ViewBag.StudentID</p>
+            <p class="fs-4"><strong>Lớp:</strong> @ViewBag.Class</p>
+            <blockquote class="blockquote">
+                <p class="mb-0 text-secondary">@ViewBag.Quote</p>
+            </blockquote>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+﻿/* Body */
+body {
+    background-color: #5cf210; /* nền sáng nhẹ */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+}
+
+/* Tiêu đề */
+h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #0d6efd; /* màu xanh Bootstrap */
+}
+
+/* Table Bootstrap nâng cao */
+.table {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table thead {
+        background: linear-gradient(45deg, #0d6efd, #6610f2);
+        color: white;
+        font-weight: 600;
+    }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f1f3f5;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Nút bấm */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+    .btn-warning:hover {
+        background-color: #e0a800;
+        border-color: #d39e00;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #bb2d3b;
+        border-color: #b02a37;
+    }
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 8px rgba(13, 110, 253, 0.25);
+    }
+
+.form-select {
+    border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
+.bg-student {
+    background: url('/images/bg-student.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card-custom {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
