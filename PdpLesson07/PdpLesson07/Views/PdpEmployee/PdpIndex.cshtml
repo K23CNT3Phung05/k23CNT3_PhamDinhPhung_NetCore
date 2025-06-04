@@ -1,0 +1,51 @@
+﻿@await Html.PartialAsync("_PdpNavbar")
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h2 class="mb-3">Danh sách nhân viên</h2>
+
+<a class="btn btn-success mb-3" asp-action="PdpCreate">Thêm mới nhân viên</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Pdp in Model)
+        {
+            <tr>
+                <td>@Pdp.PdpId</td>
+                <td>@Pdp.PdpName</td>
+                <td>@Pdp.PdpBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@Pdp.PdpEmail</td>
+                <td>@Pdp.PdpPhone</td>
+                <td>@String.Format("{0:N0} VNĐ", Pdp.PdpSalary)</td>
+                <td>
+                    @if (Pdp.PdpStatus)
+                    {
+                        <span class="text-success">Đang làm</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Nghỉ</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="PdpEdit" asp-route-id="@Pdp.PdpId">Sửa</a>
+                    <a class="btn btn-danger btn-sm" asp-action="PdpCreate" asp-route-id="@Pdp.PdpId">Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

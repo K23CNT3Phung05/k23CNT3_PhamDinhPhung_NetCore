@@ -1,0 +1,56 @@
+﻿@model Pdplesson07.Models.PdpEmployee
+@{
+    ViewData["Title"] = "Thêm mới nhân viên";
+}
+
+<h2>Thêm mới nhân viên</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="PdpName" class="form-label"></label>
+        <input asp-for="PdpName" class="form-control" />
+        <span asp-validation-for="PdpName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PdpBirthDay" class="form-label"></label>
+        <input asp-for="PdpBirthDay" type="date" class="form-control" />
+        <span asp-validation-for="PdpBirthDay" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PdpEmail" class="form-label"></label>
+        <input asp-for="PdpEmail" class="form-control" />
+        <span asp-validation-for="PdpEmail" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PdpPhone" class="form-label"></label>
+        <input asp-for="PdpPhone" class="form-control" />
+        <span asp-validation-for="PdpPhone" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PdpSalary" class="form-label"></label>
+        <input asp-for="PdpSalary" class="form-control" />
+        <span asp-validation-for="PdpSalary" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PdpStatus" class="form-label"></label>
+        <select asp-for="PdpStatus" class="form-select">
+            <option value="true">Đang làm</option>
+            <option value="false">Nghỉ</option>
+        </select>
+        <span asp-validation-for="PdpStatus" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="PdpIndex" class="btn btn-secondary ms-2">Hủy</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
