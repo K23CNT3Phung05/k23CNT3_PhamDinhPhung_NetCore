@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<PdpLesson08Annotation.Models.PdpAccount>
+
+@{
+    ViewData["Title"] = "PdpIndex";
+}
+
+<h1>PdpIndex</h1>
+
+<p>
+    <a asp-action="PdpCreate" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.PdpId)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpFullName)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpPhone)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpAddress)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpAvatar)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpBirthday)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpGender)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpPassword)</th>
+            <th>@Html.DisplayNameFor(model => model.PdpFacebook)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.PdpId)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpFullName)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpPhone)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpAddress)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpAvatar)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpBirthday)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpGender)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpPassword)</td>
+                <td>@Html.DisplayFor(modelItem => item.PdpFacebook)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.PdpId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.PdpId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.PdpId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

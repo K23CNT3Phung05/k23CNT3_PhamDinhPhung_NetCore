@@ -19,7 +19,7 @@ namespace Pdplesson07.Controllers
         // Hiển thị danh sách nhân viên
         public IActionResult PdpIndex()
         {
-            return View(PdpListEmployee);  // Tìm view: /Views/PdpEmployee/PdpIndex.cshtml
+            return View(PdpListEmployee);
         }
 
         // Hiển thị chi tiết nhân viên
@@ -30,13 +30,13 @@ namespace Pdplesson07.Controllers
             return View(emp);
         }
 
-        // Hiển thị form tạo mới
-        public IActionResult Create()
+        // GET: Hiển thị form tạo mới
+        public IActionResult PdpCreate()
         {
             return View();
         }
 
-        // Xử lý dữ liệu tạo mới
+        // POST: Xử lý dữ liệu tạo mới
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult PdpCreate(PdpEmployee pdp)
@@ -50,7 +50,7 @@ namespace Pdplesson07.Controllers
             return View(pdp);
         }
 
-        // Hiển thị form chỉnh sửa
+        // GET: Hiển thị form chỉnh sửa
         public IActionResult PdpEdit(int id)
         {
             var emp = PdpListEmployee.FirstOrDefault(e => e.PdpId == id);
@@ -58,7 +58,7 @@ namespace Pdplesson07.Controllers
             return View(emp);
         }
 
-        // Xử lý cập nhật nhân viên
+        // POST: Xử lý cập nhật nhân viên
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult PdpEdit(int id, PdpEmployee pdp)
@@ -82,7 +82,7 @@ namespace Pdplesson07.Controllers
             return View(pdp);
         }
 
-        // Xác nhận xóa nhân viên
+        // GET: Hiển thị xác nhận xóa
         public IActionResult PdpCreate(int id)
         {
             var emp = PdpListEmployee.FirstOrDefault(e => e.PdpId == id);
@@ -90,7 +90,7 @@ namespace Pdplesson07.Controllers
             return View(emp);
         }
 
-        // Xóa nhân viên
+        // POST: Xác nhận xóa nhân viên
         [HttpPost, ActionName("PdpCreate")]
         [ValidateAntiForgeryToken]
         public IActionResult PdpCreateConfirmed(int id)
