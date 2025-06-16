@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PdpLesson09
+build_property.RootNamespace = PdpLesson09
+build_property.ProjectDir = E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\PdpLesson09\PdpLesson09\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\K23CNT3-PhamDinhPhung.Net\k23CNT3_PhamDinhPhung_NetCore\PdpLesson09\PdpLesson09
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpCategories/PdpIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwQ2F0ZWdvcmllc1xQZHBJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpHome/PdpAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwSG9tZVxQZHBBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/PdpHome/PdpIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRwSG9tZVxQZHBJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/Shared/_PdpNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZHBOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/K23CNT3-PhamDinhPhung.Net/k23CNT3_PhamDinhPhung_NetCore/PdpLesson09/PdpLesson09/Views/Shared/_PdpLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZHBMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x7i5rihz8u

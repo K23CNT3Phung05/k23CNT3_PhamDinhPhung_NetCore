@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\shared\\_pdpnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\shared\\_pdpnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\pdpaccount\\pdpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\pdpaccount\\pdpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\shared\\_pdplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\shared\\_pdplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\pdpaccount\\pdpcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\pdpaccount\\pdpcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\pdphome\\pdpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\pdphome\\pdpabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\shared\\_pdplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\shared\\_pdplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\shared\\_pdpnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\shared\\_pdpnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\controllers\\pdpaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\controllers\\pdpaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\pdpaccount\\pdpcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\pdpaccount\\pdpcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\views\\pdpaccount\\pdpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|solutionrelative:pdplesson08\\views\\pdpaccount\\pdpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{062D91F9-586E-4EDA-8075-395B99D31EF7}|PdpLesson08\\PdpLesson08.csproj|e:\\k23cnt3-phamdinhphung.net\\k23cnt3_phamdinhphung_netcore\\pdplesson08\\pdplesson08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "PdpLesson08\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:47:41.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:47:41.634Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,8 @@
               "Title": "PdpIndex.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml",
-              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml*",
-              "RelativeToolTip": "PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml*",
+              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml",
+              "RelativeToolTip": "PdpLesson08\\Views\\PdpHome\\PdpIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:37:13.624Z",
@@ -88,8 +87,8 @@
               "Title": "PdpAbout.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml",
-              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml*",
-              "RelativeToolTip": "PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml*",
+              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml",
+              "RelativeToolTip": "PdpLesson08\\Views\\PdpHome\\PdpAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:36:47.058Z",
@@ -97,33 +96,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_PdpLayout.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\Shared\\_PdpLayout.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\Shared\\_PdpLayout.cshtml",
               "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\Shared\\_PdpLayout.cshtml",
               "RelativeToolTip": "PdpLesson08\\Views\\Shared\\_PdpLayout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:34:58.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_PdpNavBar.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\Shared\\_PdpNavBar.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\Shared\\_PdpNavBar.cshtml",
               "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\Shared\\_PdpNavBar.cshtml",
               "RelativeToolTip": "PdpLesson08\\Views\\Shared\\_PdpNavBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:29:02.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PdpCreate.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpAccount\\PdpCreate.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\PdpAccount\\PdpCreate.cshtml",
@@ -136,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PdpIndex.cshtml",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpAccount\\PdpIndex.cshtml",
               "RelativeDocumentMoniker": "PdpLesson08\\Views\\PdpAccount\\PdpIndex.cshtml",
               "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Views\\PdpAccount\\PdpIndex.cshtml",
               "RelativeToolTip": "PdpLesson08\\Views\\PdpAccount\\PdpIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-10T03:27:23.3Z",
               "EditorCaption": ""
@@ -157,21 +156,19 @@
               "RelativeToolTip": "PdpLesson08\\Models\\PdpAccount.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:23:34.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:23:34.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PdpAccountConTroller.cs",
               "DocumentMoniker": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Controllers\\PdpAccountConTroller.cs",
               "RelativeDocumentMoniker": "PdpLesson08\\Controllers\\PdpAccountConTroller.cs",
-              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Controllers\\PdpAccountConTroller.cs*",
-              "RelativeToolTip": "PdpLesson08\\Controllers\\PdpAccountConTroller.cs*",
+              "ToolTip": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson08\\PdpLesson08\\Controllers\\PdpAccountConTroller.cs",
+              "RelativeToolTip": "PdpLesson08\\Controllers\\PdpAccountConTroller.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAoAAAAfAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:22:46.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:22:46.339Z"
             },
             {
               "$type": "Document",
@@ -183,8 +180,7 @@
               "RelativeToolTip": "PdpLesson08\\Controllers\\PdpHomeController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:20:40.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:20:40.477Z"
             },
             {
               "$type": "Document",
@@ -196,8 +192,7 @@
               "RelativeToolTip": "PdpLesson08\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T03:18:01.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:18:01.05Z"
             }
           ]
         }

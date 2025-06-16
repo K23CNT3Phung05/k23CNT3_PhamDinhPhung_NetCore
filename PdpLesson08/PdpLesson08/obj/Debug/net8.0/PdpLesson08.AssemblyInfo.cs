@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PdpLesson08")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02e028ccc96fe83340df61539c7863aaf4d19d80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa8241d2f97f32466bab46431940321cbb45c3fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PdpLesson08")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PdpLesson08")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
