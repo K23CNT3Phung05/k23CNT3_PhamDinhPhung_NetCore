@@ -1,0 +1,30 @@
+﻿@model PdpLesson10.Models.PdpPosts
+
+@{
+    ViewData["Title"] = "Chi tiết bài viết";
+}
+
+
+<div class="card shadow-sm mx-auto" style="max-width: 600px;">
+       <div class="card-header">
+            <h2 class="text-center my-4">@ViewData["Title"]</h2>
+        </div>
+    <div class="card-body">
+        <h5 class="card-title mb-3">@Model.PdpTitle</h5>
+
+        @if (!string.IsNullOrEmpty(Model.PdpImage))
+        {
+            <img src="@Model.PdpImage" alt="Ảnh bài viết" class="img-fluid rounded mb-3" />
+        }
+
+        <p class="card-text"><strong>Nội dung:</strong> @Model.PdpContent</p>
+        <p class="card-text">
+            <strong>Trạng thái:</strong>
+            @(Model.PdpStatus==true ? "Hiển thị" : "Tạm khóa")
+        </p>
+    </div>
+    <div class="card-footer">
+        <a asp-action="PdpEdit" asp-route-PdpId="@Model.PdpId" class="btn btn-warning">Chỉnh sửa</a>
+        <a asp-action="PdpIndex" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+</div>

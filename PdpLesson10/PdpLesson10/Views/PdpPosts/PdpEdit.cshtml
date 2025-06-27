@@ -1,0 +1,60 @@
+﻿@model PdpLesson10.Models.PdpPosts
+
+@{
+    ViewData["Title"] = "Chỉnh sửa bài viết";
+}
+
+<form asp-action="PdpEdit" enctype="multipart/form-data">
+    <div class="card shadow-sm mx-auto" style="max-width: 600px;">
+        <div class="card-header">
+            <h2 class="text-center my-4">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <input type="hidden" asp-for="PdpId" />
+
+            <div class="mb-3">
+                <label asp-for="PdpTitle" class="form-label fw-semibold"></label>
+                <input asp-for="PdpTitle" class="form-control" placeholder="Nhập tiêu đề bài viết" />
+                <span asp-validation-for="PdpTitle" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Ảnh hiện tại:</label><br />
+                <img src="~/@Model.PdpImage" width="100" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Chọn ảnh mới</label>
+                <input name="PdpImage" type="file" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdpContent" class="form-label fw-semibold"></label>
+                <textarea asp-for="PdpContent" class="form-control" rows="4" placeholder="Nhập nội dung bài viết"></textarea>
+                <span asp-validation-for="PdpContent" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdpStatus" class="form-label fw-semibold"></label>
+                <select asp-for="PdpStatus" class="form-select">
+                    <option value="">--Chọn trạng thái--</option>
+                    <option value="true">Hiển thị</option>
+                    <option value="false">Ẩn</option>
+                </select>
+                <span asp-validation-for="PdpStatus" class="text-danger"></span>
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary mr-2">Lưu thay đổi</button>
+                <a asp-action="PdpIndex" class="btn btn-secondary">Quay lại danh sách</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
