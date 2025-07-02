@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5OXawDagYgtNrT91N//SU6ua2Ss9T05Sx6WhmqwPDqg=",
+  "Hash": "C1G/jrpNQ2MyYyIdEy0Da+VPGwickNaGTTfhp1AoxxU=",
   "Source": "PdpLesson10",
   "BasePath": "_content/PdpLesson10",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "nkdz5v85su",
-      "Integrity": "d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=",
+      "Fingerprint": "2z7u58ssb0",
+      "Integrity": "IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PdpLesson10.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "nkdz5v85su",
-      "Integrity": "d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=",
+      "Fingerprint": "2z7u58ssb0",
+      "Integrity": "IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PdpLesson10.bundle.scp.css"
@@ -6241,6 +6241,96 @@
       ]
     },
     {
+      "Route": "PdpLesson10.2z7u58ssb0.bundle.scp.css",
+      "AssetFile": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PdpLesson10.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:44:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z7u58ssb0"
+        },
+        {
+          "Name": "label",
+          "Value": "PdpLesson10.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k="
+        }
+      ]
+    },
+    {
+      "Route": "PdpLesson10.2z7u58ssb0.styles.css",
+      "AssetFile": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PdpLesson10.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 13:44:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z7u58ssb0"
+        },
+        {
+          "Name": "label",
+          "Value": "PdpLesson10.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k="
+        }
+      ]
+    },
+    {
       "Route": "PdpLesson10.bundle.scp.css",
       "AssetFile": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PdpLesson10.bundle.scp.css",
       "Selectors": [],
@@ -6251,7 +6341,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1132"
         },
         {
           "Name": "Content-Type",
@@ -6259,11 +6349,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=\""
+          "Value": "\"IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 01:35:37 GMT"
+          "Value": "Fri, 27 Jun 2025 13:44:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6273,97 +6363,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s="
-        }
-      ]
-    },
-    {
-      "Route": "PdpLesson10.nkdz5v85su.bundle.scp.css",
-      "AssetFile": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PdpLesson10.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 01:35:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nkdz5v85su"
-        },
-        {
-          "Name": "label",
-          "Value": "PdpLesson10.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s="
-        }
-      ]
-    },
-    {
-      "Route": "PdpLesson10.nkdz5v85su.styles.css",
-      "AssetFile": "E:\\K23CNT3-PhamDinhPhung.Net\\k23CNT3_PhamDinhPhung_NetCore\\PdpLesson10\\PdpLesson10\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PdpLesson10.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 01:35:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nkdz5v85su"
-        },
-        {
-          "Name": "label",
-          "Value": "PdpLesson10.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s="
+          "Value": "sha256-IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k="
         }
       ]
     },
@@ -6378,7 +6378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1132"
         },
         {
           "Name": "Content-Type",
@@ -6386,11 +6386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s=\""
+          "Value": "\"IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 01:35:37 GMT"
+          "Value": "Fri, 27 Jun 2025 13:44:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6400,7 +6400,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-d/D2HWA/tohbe6Lu4Qws/Txan4LnPi7OdzcJsfX8t3s="
+          "Value": "sha256-IneF+c9uuXmh2xB/jIdN7Wq3iq3k95duGmOUtBoCm3k="
         }
       ]
     }

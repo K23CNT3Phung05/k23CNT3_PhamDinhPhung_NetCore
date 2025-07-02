@@ -1,0 +1,50 @@
+﻿@model PhamDinhPhung_2310900083.Models.PdpEmployee
+
+@{
+    ViewData["Title"] = "Cập nhật nhân viên";
+}
+
+<div class="card shadow-sm mx-auto mt-4" style="max-width: 600px;">
+    <div class="card-header bg-warning text-white">
+        <h4 class="text-center my-2">@ViewData["Title"]</h4>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="PdpEdit" method="post">
+            <input type="hidden" asp-for="PdpEmpId" />
+
+            <div class="mb-3">
+                <label asp-for="PdpEmpName" class="form-label fw-semibold"></label>
+                <input asp-for="PdpEmpName" class="form-control" />
+                <span asp-validation-for="PdpEmpName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdpEmpLevel" class="form-label fw-semibold"></label>
+                <input asp-for="PdpEmpLevel" class="form-control" />
+                <span asp-validation-for="PdpEmpLevel" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdpEmpStartDate" class="form-label fw-semibold"></label>
+                <input asp-for="PdpEmpStartDate" class="form-control" type="date" />
+                <span asp-validation-for="PdpEmpStartDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PdpEmpStatus" class="form-label fw-semibold"></label>
+                <select asp-for="PdpEmpStatus" class="form-select">
+                    <option value="">-- Chọn trạng thái --</option>
+                    <option value="true" selected="@Model.PdpEmpStatus">Hiển thị</option>
+                    <option value="false" selected="@(!Model.PdpEmpStatus ?? false)">Tạm ẩn</option>
+                </select>
+                <span asp-validation-for="PdpEmpStatus" class="text-danger"></span>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success">💾 Lưu</button>
+                <a asp-action="PdpIndex" class="btn btn-secondary ms-2">⬅️ Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

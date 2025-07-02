@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PhamDinhPhung_2310900083.Models.PdpEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="PdpCreate" class="btn btn-primary">➕ Thêm mới</a>
+</p>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Tên</th>
+            <th>Trình độ</th>
+            <th>Ngày bắt đầu</th>
+            <th>Trạng thái</th>
+            <th class="text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PdpEmpName</td>
+                    <td>@item.PdpEmpLevel</td>
+                    <td>@item.PdpEmpStartDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@((item.PdpEmpStatus ?? false) ? "Hiển thị" : "Tạm ẩn")</td>
+                    <td class="text-center">
+                        <a asp-action="PdpEdit" asp-route-PdpId="@item.PdpEmpId" class="btn btn-sm btn-warning">✏️ Sửa</a>
+                        <a asp-action="PdpDetails" asp-route-PdpId="@item.PdpEmpId" class="btn btn-sm btn-info">📋 Chi tiết</a>
+                        <a asp-action="PdpDelete" asp-route-PdpId="@item.PdpEmpId" class="btn btn-sm btn-danger">🗑️ Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center text-danger">Không có dữ liệu nhân viên.</td>
+            </tr>
+        }
+    </tbody>
+</table>

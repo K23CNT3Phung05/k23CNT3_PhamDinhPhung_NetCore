@@ -1,0 +1,45 @@
+﻿@model PhamDinhPhung_2310900083.Models.PdpEmployee
+
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+
+<div class="card shadow-sm mx-auto mt-4" style="max-width: 600px;">
+    <div class="card-header bg-primary text-white text-center">
+        <h3>@ViewData["Title"]</h3>
+    </div>
+
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Họ tên</dt>
+            <dd class="col-sm-8">@Model.PdpEmpName</dd>
+
+            <dt class="col-sm-4">Trình độ</dt>
+            <dd class="col-sm-8">@Model.PdpEmpLevel</dd>
+
+            <dt class="col-sm-4">Ngày bắt đầu</dt>
+            <dd class="col-sm-8">@Model.PdpEmpStartDate?.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-4">Trạng thái</dt>
+            <dd class="col-sm-8">
+                @if (Model.PdpEmpStatus == true)
+                {
+                    <span class="badge bg-success">Hiển thị</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">Tạm khóa</span>
+                }
+            </dd>
+        </dl>
+    </div>
+
+    <div class="card-footer text-center">
+        <a asp-action="PdpEdit" asp-route-PdpId="@Model.PdpEmpId" class="btn btn-warning me-2">
+            ✏️ Chỉnh sửa
+        </a>
+        <a asp-action="PdpIndex" class="btn btn-secondary">
+            ⬅️ Quay lại danh sách
+        </a>
+    </div>
+</div>

@@ -1,8 +1,9 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PdpLesson10.Models;
+using System.Diagnostics;
+using PdpLesson10.Models;
 
-namespace PdpLesson10.Controllers
+namespace PdpLesson10EF.Controllers
 {
     public class PdpHomeController : Controller
     {
@@ -13,12 +14,12 @@ namespace PdpLesson10.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult PdpIndex()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult PdpAbout()
         {
             return View();
         }

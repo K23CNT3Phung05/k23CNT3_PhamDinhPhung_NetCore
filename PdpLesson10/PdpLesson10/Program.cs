@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using PdpLesson10.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("PdpDbConnect");
+builder.Services.AddDbContext <PdpK23cnt3lesson10DbContext>(x => x.UseSqlServer(connectionString));
+
 
 var app = builder.Build();
 
@@ -22,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=PdpHome}/{action=Index}/{id?}");
+    pattern: "{controller=PdpHome}/{action=PdpIndex}/{PdpId?}");
 
 app.Run();
